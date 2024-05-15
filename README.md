@@ -116,11 +116,11 @@ Defines the schema for the Transaction model.
 authMiddleware.js:
 Verifies if the user is authenticated by checking the JWT token.
 
-Summary
-Frontend: The React app's components (SendMoney.jsx, Login.jsx, Signup.jsx) make API calls to the backend Express server.
-Backend: The Express server (server.js) routes these requests to specific route handlers (account-route.js, auth-route.js, transaction-route.js).
-Controllers: The route handlers invoke controller functions (addBank-controller.js, auth-controller.js, transaction-controller.js) that contain the business logic.
-Database: Controllers interact with MongoDB via Mongoose models (account-model.js, transaction-model.js, user-model.js).
-Middleware: Middleware (authMiddleware.js) ensures the user is authenticated before accessing protected routes.
-Response: The server processes the request, interacts with the database if needed, and sends a response back to the React frontend, which updates the UI accordingly.
+Summary: <br>
+Frontend: The React app's components (SendMoney.jsx, Login.jsx, Signup.jsx) make API calls to the backend Express server. <br>
+Backend: The Express server (server.js) routes these requests to specific route handlers (account-route.js, auth-route.js, transaction-route.js). <br>
+Controllers: The route handlers invoke controller functions (addBank-controller.js, auth-controller.js, transaction-controller.js) that contain the business logic. <br>
+Database: Controllers interact with MongoDB via Mongoose models (account-model.js, transaction-model.js, user-model.js). <br>
+Middleware: Middleware (authMiddleware.js) ensures the user is authenticated before accessing protected routes. <br>
+Response: The server processes the request, interacts with the database if needed, and sends a response back to the React frontend, which updates the UI accordingly. <br>
 
