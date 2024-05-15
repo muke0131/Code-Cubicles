@@ -15,6 +15,8 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
+Fork this repository
+
 <p>1. BACKEND</p>
 
 ```
