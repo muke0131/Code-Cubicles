@@ -59,6 +59,7 @@ Technologies used in the project:
 *   MUI
 
 <h2>Process Flow</h2>
+
 1. Frontend (React)
 
 App.jsx:
@@ -123,9 +124,3 @@ Database: Controllers interact with MongoDB via Mongoose models (account-model.j
 Middleware: Middleware (authMiddleware.js) ensures the user is authenticated before accessing protected routes.
 Response: The server processes the request, interacts with the database if needed, and sends a response back to the React frontend, which updates the UI accordingly.
 
-Technologies used in the project:
-
-*   React
-*   Express
-*   JWT
-*   MUI
