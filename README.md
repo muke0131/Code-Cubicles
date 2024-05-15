@@ -18,7 +18,7 @@ Here're some of the project's best features:
 <p>1. BACKEND</p>
 
 ```
-cd Tech_Titans/Backend
+cd Backend
 ```
 
 ```
@@ -32,7 +32,7 @@ node server.js
 <p>2. FRONTEND</p>
 
 ```
-cd Tech_Titans/Frontend
+cd Frontend
 ```
 
 ```
